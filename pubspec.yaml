@@ -1,6 +1,6 @@
 name: flutter_native_image_v2
 description: A flutter plugin which uses native iOS/Android to resize, compress or crop
-version: 1.0.0+2
+version: 1.0.1
 homepage: https://laurenscodes.space
 issue_tracker: https://github.com/heathscliff334/flutter_native_image/issues
 

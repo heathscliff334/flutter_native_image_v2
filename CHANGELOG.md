@@ -1,3 +1,11 @@
+## [1.0.1]
+* Updated package for Flutter 3.32.8 compatibility.
+* Fixed namespace configuration for Android Gradle Plugin compatibility.
+* Updated Android Gradle Plugin to version 7.3.0 and Gradle to 7.5.
+* Removed deprecated Flutter embedding APIs and updated to modern Flutter plugin architecture.
+* Updated minimum SDK versions and compilation targets for better compatibility.
+* Replaced deprecated repositories (jcenter) with mavenCentral.
+
 ## [1.0.0+1]
 * Initial release of `flutter_native_image_v2` with support for Flutter 3.27.1.
 * Updated Android and iOS platform support for compatibility with newer Flutter versions.
