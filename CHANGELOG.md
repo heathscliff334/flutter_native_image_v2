@@ -6,6 +6,17 @@
 * Updated minimum SDK versions and compilation targets for better compatibility.
 * Replaced deprecated repositories (jcenter) with mavenCentral.
 
+## [1.1.0+3]
+* **BREAKING**: Updated for Flutter 3.32.8 compatibility
+* Fixed namespace issues with Android Gradle Plugin 7.3.0
+* Removed deprecated `registerWith` method - now uses modern Flutter embedding v2 only
+* Updated Android `compileSdkVersion` to 34 and `minSdkVersion` to 21
+* Replaced deprecated `getDartExecutor()` with `getBinaryMessenger()`
+* Updated Gradle wrapper to 7.5 for better compatibility
+* Replaced deprecated `jcenter()` with `mavenCentral()`
+* Updated minimum Flutter version requirement to 3.16.0
+* Fixed Java compilation errors with newer Android build tools
+
 ## [1.0.0+1]
 * Initial release of `flutter_native_image_v2` with support for Flutter 3.27.1.
 * Updated Android and iOS platform support for compatibility with newer Flutter versions.
