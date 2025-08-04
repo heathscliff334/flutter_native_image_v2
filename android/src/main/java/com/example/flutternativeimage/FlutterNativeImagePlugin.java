@@ -15,7 +15,7 @@ public class FlutterNativeImagePlugin implements FlutterPlugin {
 
   @Override
   public void onAttachedToEngine(FlutterPlugin.FlutterPluginBinding binding) {
-    setupChannel(binding.getFlutterEngine().getDartExecutor(), binding.getApplicationContext());
+    setupChannel(binding.getBinaryMessenger(), binding.getApplicationContext());
   }
 
   @Override
