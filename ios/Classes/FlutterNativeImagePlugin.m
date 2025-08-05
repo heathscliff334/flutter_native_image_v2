@@ -5,7 +5,7 @@
 @implementation FlutterNativeImagePlugin
 + (void)registerWithRegistrar:(NSObject<FlutterPluginRegistrar>*)registrar {
     FlutterMethodChannel* channel = [FlutterMethodChannel
-                                     methodChannelWithName:@"flutter_native_image"
+                                     methodChannelWithName:@"flutter_native_image_v2"
                                      binaryMessenger:[registrar messenger]];
     FlutterNativeImagePlugin* instance = [[FlutterNativeImagePlugin alloc] init];
     [registrar addMethodCallDelegate:instance channel:channel];

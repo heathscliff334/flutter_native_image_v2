@@ -10,7 +10,7 @@ import io.flutter.plugin.common.MethodChannel;
  * FlutterNativeImagePlugin
  */
 public class FlutterNativeImagePlugin implements FlutterPlugin {
-  private static final String CHANNEL_NAME = "flutter_native_image";
+  private static final String CHANNEL_NAME = "flutter_native_image_v2";
   private MethodChannel channel;
 
   @Override
