@@ -1,3 +1,9 @@
+## [1.1.2+4]
+* **CRITICAL FIX**: Fixed MissingPluginException by correcting method channel name mismatch
+* Updated Android implementation to use correct channel name 'flutter_native_image_v2'
+* Updated iOS implementation to use correct channel name 'flutter_native_image_v2'
+* Resolved issue where compressImage method was not found on channel flutter_native_image_v2
+
 ## [1.0.1]
 * Updated package for Flutter 3.32.8 compatibility.
 * Fixed namespace configuration for Android Gradle Plugin compatibility.
