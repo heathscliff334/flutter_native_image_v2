@@ -1,3 +1,8 @@
+## [1.1.3]
+* Improved stability and performance
+* Code cleanup and documentation updates
+* Maintenance release with minor bug fixes
+
 ## [1.1.2+4]
 * **CRITICAL FIX**: Fixed MissingPluginException by correcting method channel name mismatch
 * Updated Android implementation to use correct channel name 'flutter_native_image_v2'
