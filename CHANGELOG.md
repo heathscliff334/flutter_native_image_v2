@@ -1,3 +1,8 @@
+## [1.1.5+1]
+* Bumped package version to 1.1.5+1.
+* To be compatible with latest Gradle versions, `namespace` attribute must be added to Gradle file #1.
+* Thanks to [@isandoqa](https://github.com/isandoqa).
+
 ## [1.1.3]
 * Improved stability and performance
 * Code cleanup and documentation updates
