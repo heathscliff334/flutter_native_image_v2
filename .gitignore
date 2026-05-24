@@ -13,4 +13,6 @@ pubspec.lock
 # ignore example generated
 example/ios/Runner.xcodeproj/
 example/ios/Flutter/
-.fvm
+
+# FVM Version Cache
+.fvm/
